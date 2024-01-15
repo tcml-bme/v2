@@ -1,0 +1,142 @@
+[
+    {
+      "title": "Uncertainty assessment in Whole-Body Low Dose PET Reconstruction using Non-parametric Bayesian Deep Learning Approach",
+      "date": "April 18-21, 2023",
+      "conference": "IEEE International Symposium on Biomedical Imaging (ISBI)",
+      "link": "#",
+      "authors": [
+        "M. Levital",
+        "S. Khawaled",
+        "M. Freiman"
+      ],
+      "location": "Cartagena de Indias, Colombia"
+    },
+    {
+      "title": "qDWI-Morph: Motion-compensated quantitative Diffusion-Weighted MRI analysis for fetal lung maturity assessment",
+      "date": "Oct 23-27, 2022",
+      "conference": "European Conference on Computer Vision-Medical Computer Vision Workshop (ECCV-MCV)",
+      "link": "#",
+      "authors": [
+        "Y. Zaffrani-Reznikov",
+        "O. Afacan",
+        "S. Kurugol",
+        "S. Warfield",
+        "M. Freiman"
+      ],
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "title": "PVBM: A Python Vasculature Biomarker Toolbox Based on Retinal Blood Vessel Segmentation",
+      "date": "Oct 23-27, 2022",
+      "conference": "European Conference on Computer Vision-Medical Computer Vision Workshop (ECCV-MCV)",
+      "link": "#",
+      "authors":[
+        "J. Fhima",
+        "JV. Eijgen",
+        "I. Stalmans",
+        "Y. Men",
+        "M. Freiman",
+        "JA. Behar"
+      ],
+      "location": "Tel Aviv, Israel"
+    }, 
+    {
+      "title": "NPB-REC: Non-parametric Assessment of Uncertainty in Deep-Learning-Based MRI Reconstruction from Undersampled Data",
+      "date": "Sept 22, 2022",
+      "conference": "Medical Image Computing and Computer Assisted Intervention-Machine Learning for MEdical Image Reconstruction 5th International Workshop – MICCAI-MLMIR",
+      "link": "#",
+      "authors": [
+        "S. Khawaled",
+        "M. Freiman"
+      ],
+      "location": "Singapore",
+      "misc": "Part of the Lecture Notes in Computer Science book series (LNCS), Vol. 13587, pages 14-23."
+    }, 
+    {
+      "title": "PD-DWI: Predicting response to neoadjuvant chemotherapy in invasive breast cancer with Physiologically-Decomposed Diffusion-Weighted MRI machine-learning model",
+      "date": "Sept 18-22, 2022",
+      "conference": "Medical Image Computing and Computer Assisted Intervention – MICCAI",
+      "link": "#",
+      "authors": [
+        "M. Gilad",
+        "M. Freiman"
+      ],
+      "location": "Singapore"
+    },
+    {
+      "title": "SUPER-IVIM-DC: Intra-voxel incoherent motion based Fetal lung maturity assessment from limited DWI data using supervised learning coupled with data-consistency",
+      "date": "Sept 18-22, 2022",
+      "conference": "Medical Image Computing and Computer Assisted Intervention – MICCAI",
+      "link": "#",
+      "authors": [
+        "N. Korngut",
+        "E. Rotman",
+        "O. Afacan",
+        "S. Kurugol",
+        "Y. Zaffrani-Reznikov",
+        "S. Nemirovsky-Rotman",
+        "S. Warfield",
+        "M. Freiman"
+      ],
+      "location": "Singapore"
+    },
+    {
+      "title": "Gadolinium-free Crohn's disease assessment from Magnetic Resonance Enterography data.",
+      "date": "March 28-31, 2022",
+      "conference": "IEEE International Symposium on Biomedical Imaging (ISBI)",
+      "link": "#",
+      "authors": [
+        "Y. Ziselman",
+        "M. Freiman",
+        "F. Haj ali Shinnawi",
+        "M. Louise-Greer",
+        "G. Foch",
+        "D. Turner"
+      ],
+      "location": "Kolkata, India"
+    }, 
+    {
+      "title": "Deep-Learning based Motion Correction for Myocardial T1 Mapping",
+      "date": "Nov 1-3, 2021",
+      "conference": "IEEE International Conference on Microwaves, Antennas, Communications and Electronic Systems (COMCAS)",
+      "link": "#",
+      "authors": [
+        "D. Arava",
+        "M. Masarwy",
+        "S. Khawaled",
+        "M. Freiman"
+      ],
+      "location":"Tel Aviv, Israel"
+    },
+    {
+      "title": "Non-Parametric Data Augmentations Improve Deep-learning based Brain Tumor Segmentation",
+      "date": "Nov 1-3, 2021",
+      "conference": "IEEE International Conference on Microwaves, Antennas, Communications and Electronic Systems (COMCAS)",
+      "link": "#",
+      "authors": [
+        "H. Ben-Atya",
+        "O. Rajchert",
+        "L. Goshen",
+        "M. Freiman"
+      ],
+      "location": "Tel Aviv, Israel"
+    },
+    {
+      "title": "Learning a Sparse Database for Patch-Based Medical Image Segmentation",
+      "date": "Sept 2017",
+      "conference": "MICCAI 2017 Workshop on Patch-based Techniques in Medical Imaging (PATCH-MI 2017)",
+      "link": "#",
+      "authors": [
+        "M. Freiman",
+        "H. Nickisch",
+        "H. Schmitt",
+        "M. Vembar",
+        "P. Maurovich-Horvat",
+        "P.M. Donnelly",
+        "L. Goshen"
+      ],
+      "location": "Quebec City, Quebec, Canada",
+      "misc": "Lecture Notes in Computer Science, 10530:47-54, Springer"
+    }
+  ]
+  

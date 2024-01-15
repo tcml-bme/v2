@@ -1,0 +1,24 @@
+<h1>Physically Motivated Deep-Neural Networks of the Intravoxel Incoherent Motion Signal Decay Model for Quantitative Diffusion-Weighted MRI</h1>
+
+<h2>Shira Nemirovsky-Rotman, Elad Rotman, Onur Afacan, Sila Kurugol, Simon Warfield, and Moti Freiman</h2>
+
+Abstract
+
+Quantitative Diffusion-Weighted MRI (DW-MRI) with the Intra-Voxel Incoherent Motion (IVIM) model shows potential to produce quantitative biomarkers for multiple clinical applications by enabling detailed characterization of tissue cellular architecture due to its sensitivity to the random movement of individual water molecules [1]. Recently, deep-learning (DL) models were proposed for the estimation of the IVIM model parameters from DW-MRI data. While the DL models produce more accurate parameter estimates compared to classical methods, their capability to generalize the IVIM model to different acquisition protocols is very limited. To that end, we introduce a physically motivated DL model, by incorporating the acquisition protocol into the network architecture. Our approach provides a DL-based method for IVIM parameter estimates that is agnostic to the acquisition protocol.
+
+Methods
+
+A feed-forward back-propagation deep neural network was trained using data generated according to the IVIM model. The network is comprised of five fully-connected hidden layers, an extended input layer and an output layer. The input layer is composed of the neurons which receive the normalized diffusion-weighted signals, as well as the values of the acquisition parameters. The output layer is comprised of 3 neurons, which hold the estimations of the IVIM model parameters: D, Dp and Fp. An Adam optimizer was applied for the training, with a loss function computed as the mean square error between the normalized signal input and the normalized predicted output according to the IVIM model (Eq. (1)). The proposed network was trained and tested on simulated diffusion-weighted signals, according to the IVIM model, with randomly varying b-values vectors. The IVIM parameters were chosen as uniformly distributed random variables over the following intervals: 0.0005 ≤ D ≤ 0.002 mm 2/sec, 0.01 ≤ Dp ≤ 0.1 mm 2/sec, 0.1 ≤ Fp ≤ 0.4. These parameters values were chosen in agreement with reported abdominal DW-MRI data [2]. During the training process, uniformly distributed random variations in the b-values vectors were injected to the network. Rician noise was added to the IVIM signals during the training process.
+
+Conclusion
+
+We introduced a deep learning model capable to "learn" the IVIM signal model decay by incorporating the acquisition parameters into the network architecture. In a major shift from previous work, which focused on accurate prediction of the IVIM model parameters in a specific setting (i.e., a set of b values), our approach is capable to "learn" the IVIM model and as a result, be agnostic to variations in the acquisition protocols. Thus, the proposed DNN-based model of the IVIM signal-decay model may be used to estimate the IVIM model parameters from DW-MRI data, without requiring an additional training session according to the specific acquisition protocol parameters. The proposed approach can be extended directly to additional parametric MRI quantitative mappings.
+
+References
+
+[1] D. M. Koh and D. J. Collins. Diffusion-weighted MRI in the body: Applications and challenges in oncology. Am. J. Roentgenol., vol. 188, no. 6, pp. 1622-1635, 2007.
+[2] V. Taimouri et al. Spatially constrained incoherent motion method improves diffusion-weighted MRI signal decay analysis in the liver and spleen. Med. Phys., vol. 42, no. 4, p. 1895, 2015.
+
+Funding
+
+This research was supported in part by the United States-Israel Binational Science Foundation (BSF) grant.

@@ -1,0 +1,108 @@
+[
+    {
+        "name": "Moti Freiman",
+        "title": "Principal Investigator",
+        "links": {
+            "orcid": "https://orcid.org/0000-0003-1083-1548",
+            "google_scholar": "https://scholar.google.com/citations?user=8Oiqdz0AAAAJ&hl=en",
+            "linked_in": "https://www.linkedin.com/in/moti-freiman-1826115"    
+        },
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Chen Yahav",
+        "title": "Lab Manager",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Angeleene Ang",
+        "title": "Software Programmer",
+        "links": {
+            "orcid": "0",
+            "google_scholar": "https://scholar.google.com/citations?user=nXhYvwcAAAAJ&hl=en&oi=ao",
+            "github": "https://github.com/zemmyang",
+            "linked_in": "0"    
+        },
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Samah Khawaled",
+        "title": "PhD Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Nitzan Avidan",
+        "title": "PhD Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Maya Gilad",
+        "title": "PhD Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Adi Apotheker",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Yevgenia Shteynman",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Hadas Ben Atiya",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Rotem Benisty",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Eyal Hanania",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Noga Kertes",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Shir Nitzan",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Yahel Kleinman",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Liam Hazan",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Sharon Peled",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Uriel Cohen",
+        "title": "MSc Candidate",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Naama Gavrielov",
+        "title": "Research Assistant",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Ester Deich",
+        "title": "Research Assistant",
+        "photo": "empty.jpg"
+    }
+]

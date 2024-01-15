@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="head"></head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar"></nav>
+
+    <header class="py-5 bg-image-full" style="background-image: url('assets/mri_center.jpg'); background-size: cover; background-position: 0% 50%;">
+        <div class="text-center my-5">
+            <h1 class="text-black fw-bolder" style="background-color: rgba(255, 255, 255, 0.5); padding: 10px;">
+                Available Positions at the Technion Computational MRI Lab
+              </h1>
+        </div>
+    </header>
+
+
+    <!-- Page content-->
+    <div class="container">
+
+      <p class="lead m-5">
+          We are always seeking motivated, creative MSc and PhD students interested in joining this dynamic field. We seek to test our methods in a clinical environment. Therefore, we expect successful candidates to closely work with our clinical partners in order to integrate developed methods into the clinical workflow.
+      </p>
+
+        <h2 class="mt-5 text-center">Open Positions</h2>
+
+        <div class="">
+            <h3 class="mt-5">MSc/PhD Students</h3>
+            <ul>
+                <li> 
+                    Relevant background in biomedical engineering/electrical engineering/computer science or engineering
+                </li>
+                <li>
+                    Strong programming skills, preferably in Python, and/or C++
+                </li>
+                <li>
+                    Experience in machine/deep-learning and/or in MRI acquisition and analysis are preferable
+                </li>
+            </ul>
+            <p>Be sure to include: your CV, your grade sheet, and 2 references (academic and/or professional)</p>
+        </div>
+
+        <p class="lead">For further details, please contact <span id="email"></span></p>
+
+        <script>
+          var user = 'moti.freiman';
+          var domain = 'technion.ac.il';
+          var element = document.getElementById('email');
+          var link = document.createElement('a');
+          link.href = 'mailto:' + user + '@' + domain;
+          link.textContent = 'Dr. Moti Freiman';
+          element.appendChild(link);
+        </script>            
+
+    </div> 
+
+        <!-- Footer -->
+
+        <footer class="flex-shrink-0 py-4 bg-dark text-white-50 mt-5" id="footer">
+        </footer>
+          
+        <!-- SCRIPTS -->
+        <!-- jQuery library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <!-- Popper JS -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <!-- Bootstrap JS -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    
+        <!-- Fontawesome -->
+        <script src="https://kit.fontawesome.com/b8a4a61420.js" crossorigin="anonymous"></script>
+    
+        <!-- <script src="js/people.js"></script> -->
+        <script src="js/utils.js"></script>
+    
+        </body>
+</html>

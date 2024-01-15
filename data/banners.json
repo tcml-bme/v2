@@ -1,0 +1,38 @@
+[
+    {},
+    {
+        "date": "Dec 19 2023",
+        "image": "noga_ismrm_abstract.png",
+        "text": "Congratulations! Noga Kertes’s abstract <b>IVIM-Morph: Motion-Compensated Quantitative Intra-Voxel Incoherent Motion (IVIM) Analysis for Functional Fetal Lung Maturity Assessment from Diffusion-Weighted MRI Data</b> was accepted to the [ISMRM Workshop on Moving Forward with Intravoxel Incoherent Motion Modeling for Diffusion-Weighted MRI: An Attempt at Consensus.](https://www.ismrm.org/workshops/2024/IVIM)"
+    },
+    {
+        "date": "Dec 18 2023",
+        "image": "ram_weiss_collaboration.PNG",
+        "text": "Congratulations! We got RAMBAM-Technion collaboration grant with Prof. Ram Weiss to explore the role of quantitative MRI in diabetes."
+    },
+    {
+        "date": "Dec 18 2023",
+        "image": "liam_ecco_ibd_abstract.PNG",
+        "text": "Congratulations! Liam Hazan's abstract <b>Harnessing Natural Language Processing for Structured Information Extraction from Radiology Reports in Crohn's Disease: A Nationwide Study From the epi-IIRN</b> was accepted to [ECCO-IBD conference](https://www.ecco-ibd.eu/)"
+    },
+    {
+        "date": "Oct 24 2023",
+        "image": "ma_recon_paper.png",
+        "text": "Congratulations! Our paper **MA-RECON: Mask-aware deep-neural network for robust fast MRI k-space interpolation** has been accepted by the journal *Computer Methods and Programs in Biomedicine*!"
+    },
+    {
+        "date": "Oct 24 2023",
+        "image": "ieee_shir_rotem.PNG",
+        "text": "Congratulations to Shir Nitzan and Rotem Benisty for the acceptance of their abstracts to the [IEEE EMBS International Conference on Data Science and Engineering in Healthcare, Medicine & Biology](https://datascience.embs.org/2023/)"
+    },
+    {
+        "date": "Oct 10 2023",
+        "image": "eyal_miccai_star.png",
+        "text": "Congratulations! Eyal Hannania was selected to receive the [MICCAI 2023 STudent Author Registration (STAR) Award!](https://conferences.miccai.org/2023/en/MICCAI-2023-STudent-Author-Registration-(STAR)-Awards.html)"
+    },
+    {
+        "date": "Sep 20 2023",
+        "image": "jacobstechnion_travelgrant_moti.jpg",
+        "text": "Congratulations! Dr. Moti Freiman is awared the [Jacobs Technion-Cornell Institute](https://tech.cornell.edu/jacobs-technion-cornell-institute/) travel grant to collaborate with [Prof. M. Sabuncu from Cornell-Tech](https://sabuncu.engineering.cornell.edu)."
+    }
+]

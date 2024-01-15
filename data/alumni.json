@@ -1,0 +1,68 @@
+[
+    {
+        "name": "Luise Brock",
+        "degree": "MSc",
+        "position": "PhD Candidate at Institute of Radiology, University Hospital Erlangen",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Hadar Hezi",
+        "degree": "MSc",
+        "position": "",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Noam Korngut",
+        "degree": "MSc",
+        "position": "Audio & Nlp researcher at OriginAI",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Elad Rotman",
+        "degree": "MSc",
+        "position": "Senior R&D Engineer at Medtronic Global Innovation Center (MAGIC)",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Yan Ziselman",
+        "degree": "MSc",
+        "position": "Algorithm Engineer at Camtek",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Shira Nemirovsky-Rotman",
+        "degree": "PhD",
+        "position": "Senior Lecturer at Haifa University",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Itai Guez",
+        "degree": "MSc",
+        "position": "Machine Learning Researcher - AI in healthcare at IBM",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Daniel Shats",
+        "degree": "MSc",
+        "position": "Deep-learning engineer at IBM research",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Maya Levital",
+        "degree": "MSc",
+        "position": "System Engineering Export at Align",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Lilach Barkat",
+        "degree": "MSc",
+        "position": "",
+        "photo": "empty.jpg"
+    },
+    {
+        "name": "Yael Zaffrani",
+        "degree": "MSc",
+        "position": "Computer Vision Algorithm Engineer at Apple",
+        "photo": "empty.jpg"
+    }
+]

@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Deep Learning: Physically Motivated DNN",
+        "description": "The use of Quantitative Diffusion-Weighted MRI and the Intra-Voxel Incoherent Motion model, enhanced with deep-learning (DL) techniques, offers potential for generating precise biomarkers in clinical settings by accurately characterizing tissue structures. We introduce a new DL model that includes the acquisition protocol within its architecture, improving the model's adaptability to different protocols while maintaining accurate parameter estimation.",
+        "image": "DNN_IVIM2.png",
+        "assets": "dl_ivim"
+    }, 
+    {
+        "title": "Deep Learning: Bayesian Network",
+        "description": "Unsupervised deep-learning models have been developed for deformable image registration, training neural networks to predict deformation fields by analyzing dissimilarities between images. To overcome potential over-fitting and improve accuracy, especially in small datasets common in medical imaging, a new Bayesian framework employing stochastic gradient Langevin dynamics has been introduced, demonstrating superior performance and uncertainty estimation in deformation field predictions on MNIST and brain MRI datasets.",
+        "image": "Bayesian2.png",
+        "assets": "dl_bayesian"
+    }, 
+    {
+        "title": "Machine Learning: MRE-based pCD Assessment",
+        "description": "Mucosal healing, a key treatment goal in Crohn's Disease (CD), is traditionally assessed using the Simple Endoscopic Score (SES-CD) via ileocolonoscopy. However, with a common failure rate of 20-25% in pediatric CD ileocolonoscopies due to the narrowness of the terminal ileum, the study aims to evaluate the effectiveness of machine-learning models in predicting SES-CD from Magnetic Resonance Enterography (MRE) data.",
+        "image": "ML_pcd_img.png",
+        "assets": "ml_pcd"
+    }, 
+    {
+        "title": "Software Development: MRI Visualization for CD",
+        "description": "Crohn's disease, a chronic inflammatory bowel disease, commonly affects the distal ileum and proximal colon, causing symptoms like diarrhea, abdominal pain, and weight loss. While diagnosis primarily relies on the invasive ileocolonoscopy, Magnetic Resonance Enterography (MRE) presents a non-invasive alternative, though its usage is challenged by the difficulty in interpreting 2D images to fully understand the bowel's anatomy and the disease's extent.",
+        "image": "Project1_img.png",
+        "assets": "sw_viscd"
+    }
+]

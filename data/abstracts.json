@@ -1,0 +1,319 @@
+[
+    {
+        "title": "A Physiologically-Decomposed DWI machine-learning model improves prediction of response to NAC treatment in invasive breast cancer",
+        "date": "June 3-8 2023",
+        "conference": "32nd Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "M. Gilad",
+            "M. Freiman"
+        ],
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Deep-learning-based Group-wise Motion Correction for Myocardial T1 Mapping",
+        "date": "June 3-8 2023",
+        "conference": "32nd Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "E. Hanania",
+            "L. Barkat",
+            "I. Cohen",
+            "H. Azhari",
+            "M. Freiman"
+        ],
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "Recovery of T2 distribution from quantitative T2-weighted MRI with physically-driven deep learning",
+        "date": "June 3-8 2023",
+        "conference": "32nd Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "H. Ben-Atya",
+            "M. Freiman"
+        ],
+        "location": "Toronto, Canada"
+      },
+      {
+        "title": "qDWI-Morph: Motion-compensated quantitative Diffusion-Weighted MRI analysis for fetal lung maturity assessment",
+        "date": "June 3-8 2023",
+        "conference": "32nd Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "Y. Zaffrani-Reznikov",
+            "O. Afacan",
+            "S. Kurugol",
+            "S. Warfield",
+            "M. Freiman"
+        ],
+        "location": "Toronto, Canada"
+      }, 
+      {
+        "title": "StyleReg: Style Transfer as Preprocess Step for Myocardial T1 Mapping",
+        "date": "December 2-8 2022",
+        "conference": "Medical Imaging meets NeurIPS workshop",
+        "link": "#",
+        "authors": [
+            "E. Hanania",
+            "L. Barkat",
+            "I. Cohen",
+            "H. Azhari",
+            "M. Freiman"
+        ],
+        "location": "New Orleans, USA"
+      },
+      {
+        "title": "SUPER-IVIM-DC, A supervised deep-learning with data consistency approach for IVIM model parameter estimation from Diffusion-Weighted MRI data",
+        "date": "May 7-12 2022",
+        "conference": "32nd Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "E. Rotman",
+            "O. Afacan",
+            "S. Kurugol",
+            "S. Warfield",
+            "M. Freiman"
+        ],
+        "location": "London, England, UK"
+      },
+      {
+        "title": "MELoDee – Multi-Exponential model Learning based on Deep Neural Networks for Quantitative MRI Bio-Markers Estimation",
+        "date": "December 13-18 2021",
+        "conference": "Medical Imaging meets NeurIPS workshop",
+        "link": "#",
+        "authors": [
+            "S. Nemirovsky-Rotman",
+            "E. Rotman",
+            "O. Afacan",
+            "S. Kurugol",
+            "S. Warfield",
+            "M. Freiman"
+        ],
+        "location": "Vancouver, Canada"
+      },
+      {
+        "title": "Machine-Learning Models Improve Magnetic Resonance Enterography based Assessment of Mucosal Healing in Pediatric Crohn's Disease",
+        "date": "November 28 - December 2 2021",
+        "conference": "RSNA 2021",
+        "link": "#",
+        "authors": [
+            "I. Guez",
+            "G. Focht",
+            "M.L. Greer",
+            "R. Cytter-Kuint",
+            "L. Pratt",
+            "D. Castro",
+            "D. Turner",
+            "A.M. Griffiths",
+            "M. Freiman",
+            "on behalf of the ImageKids study group"
+        ],
+        "location": "Chicago, USA"
+      },
+      {
+        "title": "MELoDee – Multi-Exponential model Learning based on Deep Neural Networks for Quantitative MRI Bio-Markers Estimation",
+        "date": "October 26 2021",
+        "conference": "Israel Machine Vision Conference (IMVC)",
+        "link": "#",
+        "authors": [
+            "S. Nemirovsky-Rotman",
+            "E. Rotman",
+            "O. Afacan",
+            "S. Kurugol",
+            "S. Warfield",
+            "M. Freiman"
+        ],
+        "location": "Israel"
+      },
+      {
+        "title": "Non-Parametric Bayesian Deep-learning Method for Brain MRI Registration",
+        "date": "October 26 2021",
+        "conference": "Israel Machine Vision Conference (IMVC)",
+        "link": "#",
+        "authors": [
+            "S. Khawaled",
+            "M. Freiman"
+        ],
+        "location": "Israel"
+      }, 
+      {
+        "title": "Development of a Machine-Learning Model to Impute Terminal Ileum Simple Endoscopic Score of Crohn´s Disease (SESCD) using Magnetic Resonance Enterography (MRE)",
+        "date": "June 10-13 2021",
+        "conference": "6th World Congress of Pediatric Gastroenterology, Hepatology and Nutrition",
+        "link": "#",
+        "authors": [
+            "I. Guez",
+            "G. Focht",
+            "M.L. Greer",
+            "R. Cytter-Kuint",
+            "L. Pratt",
+            "D. Castro",
+            "D. Turner",
+            "A.M. Griffiths",
+            "M. Freiman",
+            "on behalf of the ImageKids study group"
+        ],
+        "location": "Vienna, Austria"
+      },
+      {
+        "title": "Physically Motivated Deep-Neural Networks of the Intravoxel Incoherent Motion Signal Decay Model for Quantitative Diffusion-Weighted MRI",
+        "date": "May 15-20 2021",
+        "conference": "29th Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "S. Nemirovsky-Rotman",
+            "E. Rotman",
+            "O. Afacan",
+            "S. Kurugol",
+            "S. Warfield",
+            "M. Freiman"
+        ],
+        "location": "Vienna, Austria"
+      },
+      {
+        "title": "Assessment of Uncertainty in Brain MRI Deformable Registration",
+        "date": "May 15-20 2021",
+        "conference": "29th Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "S. Khawaled",
+            "M. Freiman"
+        ],
+        "location": "Vienna, Austria"
+      },
+      {
+        "title": "The Prognostic Value of Pericoronary Adipose Tissue CT-Attenuation Beyond High-Risk Plaques, Plaque volume, and Myocardial Ischemia",
+        "date": "May 2021",
+        "conference": "American College of Cardiology Scientific session (ACC)",
+        "link": "#",
+        "authors": [
+            "P.A. Van Diemen",
+            "M.J. Bom",
+            "R.S. Driessen",
+            "S. Schumacher",
+            "H. Everaars",
+            "R.W. De Winter",
+            "P.M. Van De Ven",
+            "M. Freiman",
+            "E. Langzam",
+            "L. Goshen",
+            "D. Heijtel",
+            "J.K. Min",
+            "J.A. Leipsic",
+            "P.G. Raijmakers",
+            "A.C. Van Rossum",
+            "I. Danad",
+            "P. Knaapen"
+        ],
+        "location": "Virtual"
+      },
+      {
+        "title": "A Bayesian Unsupervised Deep-Learning Based Approach for Deformable Image Registration",
+        "date": "December 11 2020",
+        "conference": "Medical Imaging meets NeurIPS workshop",
+        "link": "#",
+        "authors": [
+            "S. Khawaled",
+            "M. Freiman"
+        ],
+        "location": "Vancouver, Canada"
+      },
+      {
+        "title": "Pericoronary Adipose Tissue Attenuation Leads to Improved Prognostication Beyond Atherosclerotic Burden and High-Risk Plaques in Patients with Suspected Coronary Artery Disease",
+        "date": "December 4-5 2020",
+        "conference": "European Association for Cardiovascular Imaging (EACVI) Congress",
+        "link": "#",
+        "authors": [
+            "P.A. Van Diemen",
+            "M.J. Bom",
+            "R.S. Driessen",
+            "H. Everaars",
+            "R.W. De Winter",
+            "P.M. Van De Ven",
+            "M. Freiman",
+            "L. Goshen",
+            "E. Langzam",
+            "J.K. Min",
+            "J.A. Leipsic",
+            "P.G. Raijmakers",
+            "A.C. Van Rossum",
+            "I. Danad",
+            "P. Knaapen"
+        ],
+        "location": "Virtual"
+      },
+      {
+        "title": "Incremental Prognostic Value of Pericoronary Adipose Tissue Attenuation on Top of Comprehensive CCTA Assessment",
+        "date": "August 29 - September 1 2020",
+        "conference": "European Society of Cardiology (ESC) Congress",
+        "link": "#",
+        "authors": [
+            "P.A. Van Diemen",
+            "M.J. Bom",
+            "R.S. Driessen",
+            "H. Everaars",
+            "R.W. De Winter",
+            "P.M. Van De Ven",
+            "M. Freiman",
+            "L. Goshen",
+            "E. Langzam",
+            "D. Heijtel",
+            "J.K. Min",
+            "J.A. Leipsic",
+            "P.G. Raijmakers",
+            "A.C. Van Rossum",
+            "I. Danad",
+            "P. Knaapen"
+        ],
+        "location": "Virtual"
+      },
+      {
+        "title": "Semi-Automatic Method for Generating Multiplanar Reformatting Views of MR Post-Contrast T1-Weighted Images for Visualizing and Assessing Pediatric Crohn's Disease",
+        "date": "June 16-21 2018",
+        "conference": "26th Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "Y. Lamash",
+            "S. Kurugol",
+            "M. Freiman",
+            "S.K. Warfield"
+        ],
+        "location": "Paris, France"
+      },
+      {
+        "title": "Evaluation of Motion-Compensated Spatially Constrained IVIM (MC-SCIM) Model of Diffusion-Weighted MRI for Assessment of Fibrosis in Crohn's Disease Using Surgical Histopathology Scores",
+        "date": "May 2017",
+        "conference": "26th Joint Annual ISMRM & ISMRT Meeting and Exhibition",
+        "link": "#",
+        "authors": [
+            "S. Kurugol",
+            "M. Freiman",
+            "J. Goldsmith",
+            "R. Didier",
+            "O. Afacan",
+            "J.M. Perez-Rossello",
+            "M.J. Callahan",
+            "A. Bousvaros",
+            "S.K.Warfield"
+        ],
+        "location": "Honolulu, HI, USA"
+      },
+      {
+        "title": "Improved On-Site FFR-CT Accuracy by Coronary Tree Standardisation",
+        "date": "March 2017",
+        "conference": "The 2017 European Congress of Radiology (ECR 2017)",
+        "link": "#",
+        "authors": [
+            "H. Nickisch",
+            "M. Freiman",
+            "S. Prevrhal",
+            "M. Vembar",
+            "P. Donnely",
+            "P. Maurovich-Horvat",
+            "L. Goshen",
+            "H. Schmitt"
+        ],
+        "location": "Vienna, Austria"
+      }
+]

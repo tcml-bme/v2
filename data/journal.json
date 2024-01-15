@@ -1,0 +1,416 @@
+[
+  {
+    "title": "Image Translation of Breast Ultrasound to Pseudo Anatomical Display by CycleGAN",
+    "date": "March 22, 2023",
+    "journal": "J. of Bioengineering",
+    "DOI": "10.3390/bioengineering10030388",
+    "PDF": "https://www.mdpi.com/2306-5354/10/3/388",
+    "authors": [
+      "L. Barkat",
+      "M. Freiman",
+      "H. Azhari"
+    ],
+    "misc": "Vol. 10(3)"
+  },
+  {
+    "title": "Development of a multimodal machine-learning fusion model to non-invasively assess ileal Crohn’s disease endoscopic activity",
+    "date": "Dec 2022",
+    "journal": "J. of Computer Methods and Programs in Biomedicine",
+    "DOI": "10.1016/j.cmpb.2022.107207",
+    "PDF": "https://www.sciencedirect.com/science/article/pii/S0169260722005880",
+    "authors": [
+      "I. Guez",
+      "G. Focht",
+      "M.L.C. Greer",
+      "R. Cytter-kuint",
+      "L. Pratt",
+      "D.A. Castro",
+      "D. Turner",
+      "A.M. Griffiths",
+      "M. Freiman"
+    ],
+    "misc": "Vol. 227"
+  }, 
+  {
+    "title": "NPBDREG: Uncertainty Assessment in Diffeomorphic Brain MRI Registration using a Non-parametric Bayesian Deep-Learning Based Approach",
+    "date": "June 2, 2022",
+    "journal": "J. of Computerized Medical Imaging and Graphics",
+    "DOI": "10.1016/j.compmedimag.2022.102087",
+    "PDF": "https://www.sciencedirect.com/science/article/pii/S089561112200060X",
+    "authors": [
+      "S. Khawaled",
+      "M. Freiman"
+    ],
+    "misc": "Vol. 99"
+  },
+  {    "title": "Prognostic Value of RCA Pericoronary Adipose Tissue CT-Attenuation Beyond High-Risk Plaques, Plaque Volume, and Ischemia",
+    "date": "Aug 14 2021",
+    "journal": "J. American College of Cardiology Imaging (JACC_Img)",
+    "DOI": "10.1016/j.jcmg.2021.02.026",    
+    "PDF": "https://www.jacc.org/doi/10.1016/j.jcmg.2021.02.026",
+    "authors": [
+      "P.A. van Diemen",
+      "M.J. Bom",
+      "R.S. Driessen",
+      "S.P. Schumacher",
+      "H. Everaars",
+      "R.W. de Winter",
+      "P.M. van de Ven",
+      "M. Freiman",
+      "L. Goshen",
+      "D. Heijtel",
+      "E. Langzam",
+      "J.K. Min",
+      "J.A. Leipsic",
+      "P.G. Raijmakers",
+      "A.C. van Rossum",
+      "I. Danad",
+      "P. Knaapen"
+    ]
+  }, 
+  {
+    "title": "Unsupervised Abnormality Detection through Mixed Structure Regularization (MSR) in Deep Sparse Autoencoders",
+    "date": "1 March 2019",
+    "journal": "Medical Physics",
+    "DOI": "10.1002/mp.13464",
+    "PDF": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.13464",
+    "authors": [
+      "M. Freiman",
+      "R. Manjeshwar",
+      "L. Goshen"
+    ],
+    "misc": "Vol. 46(5)"
+  }, 
+  {
+    "title": "Curved Planar Reformatting and CNN-Based Segmentation of the Small Bowel for Visualization and Quantitative Assessment of Pediatric Crohn's Disease from MRI",
+    "date": "24 October 2018",
+    "journal": "J. of Magnetic Resonance Imaging (JMRI)",
+    "DOI": "10.1002/jmri.26330",
+    "PDF": "https://onlinelibrary.wiley.com/doi/abs/10.1002/jmri.26330",
+    "authors": [
+      "Y. Lamash",
+      "S. Kurugol",
+      "M. Freiman",
+      "J.M. Perez-Rossello",
+      "M.J. Callahan",
+      "A. Bousvaros",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 49(6)"
+  },
+  {
+    "title": "A Functionally-Personalized Boundary Condition Model to Improve Estimates of Fractional Flow Reserve with CT (CT-FFR)",
+    "date": "22 January 2018",
+    "journal": "Medical Physics",
+    "DOI": "10.1002/mp.12753",
+    "PDF": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1002/mp.12753",
+    "authors": [
+      "M. Freiman",
+      "H. Nickisch",
+      "H. Schmitt",
+      "M. Vembar",
+      "P. Maurovich-Horvat",
+      "P.M. Donnelly",
+      "L. Goshen"
+    ],
+    "misc": "Vol. 45(3)"
+  }, 
+  {
+    "title": "Compensating for the Effect of Motion on Parameter Estimation in Abdominal Diffusion-Weighted MRI by Simultaneous Image Registration and Model Estimation",
+    "date": "July 2017",
+    "journal": "Medical Image Analysis",
+    "DOI": "10.1016/j.media.2017.04.006",
+    "PDF": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5514879/pdf/nihms874985.pdf",
+    "authors": [
+      "S. Kurugol",
+      "M. Freiman",
+      "O. Afacan",
+      "L. Domachevsky",
+      "J.M Perez-Rossello",
+      "M.J. Callahan",
+      "S.K.Warfield"
+    ],
+    "misc": "Vol. 39 124-132"
+  }, 
+  {
+    "title": "Improving CCTA Based Lesions' Hemodynamic Significance Assessment by Accounting for Partial Volume Modeling in Automatic Coronary Lumen Segmentation",
+    "date": "March 2017",
+    "journal": "Medical Physics",
+    "DOI": "10.1002/mp.12121",
+    "PDF": "https://aapm.onlinelibrary.wiley.com/doi/full/10.1002/mp.12121",
+    "authors": [
+      "M. Freiman",
+      "H. Nickisch",
+      "S. Prevrhal",
+      "H. Schmitt",
+      "P. Maurovich-Horvat",
+      "P.M. Donnelly",
+      "M. Vembar",
+      "L. Goshen"
+    ],
+    "misc": "Vol. 44(3) 1040-1049"
+    
+  }, 
+  {
+    "title": "Spatially-Constrained Probability Distribution Model of Incoherent Motion (SPIM) for Diffusion-Weighted MRI",
+    "date": "March 2016",
+    "journal": "Medical Image Analysis",
+    "DOI": "10.1016/j.media.2016.03.009",
+    "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S1361841516300093",
+    "authors": [
+      "S. Kurugol",
+      "M. Freiman",
+      "O. Afacan",
+      "J.M Perez-Rossello",
+      "M.J. Callahan",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 32 173-183"
+  },
+  {
+    "title": "Spatially Constrained Incoherent Motion (SCIM) Method Improves Diffusion-Weighted MRI Signal Decay Analysis in the Liver and Spleen",
+    "date": "April 2015",
+    "journal": "Medical Physics",
+    "DOI": "10.1118/1.4915495",
+    "PDF": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4915495",
+    "authors": [
+      "V. Taimouri",
+      "O. Afacan",
+      "J.M Perez-Rossello",
+      "M.J. Callahan",
+      "R.V. Mulkern",
+      "S.K. Warfield",
+      "M. Freiman"
+    ],
+    "misc": "Vol. 42(4) 1895-1903"
+  },
+  {
+    "title": "Incoherent-Motion Magnetic Resonance Imaging and Pediatric Crohn Disease",
+    "date": "2016",
+    "journal": "Archives of Clinical and Experimental Surgery",
+    "DOI": "10.5455/aces.20150312013837",
+    "PDF": "https://www.bibliomed.org/?mno=154897",
+    "authors": [
+      "S. Bairdain",
+      "M. Freiman",
+      "M.J. Callahan",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 5(2) 116-120"
+  },
+  {
+    "title": "Quantitative Functional MRI Biomarkers Improved Early Detection of Colorectal Liver Metastases",
+    "date": "2014",
+    "journal": "J. of Magnetic Resonance Imaging (JMRI)",
+    "DOI": "10.1002/jmri.24270",
+    "PDF": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.24270",
+    "authors": [
+      "Y. Edrei",
+      "M. Freiman",
+      "M. Sklair",
+      "G. Tsarfati",
+      "E. Gross",
+      "L. Joskowicz",
+      "R. Abramovitch"
+    ],
+    "misc": "Vol. 39(5) 1246-1253"
+  }, 
+  {
+    "title": "Reliable Estimation of Incoherent Motion Parametric Maps from Diffusion-weighted MRI Using Fusion Bootstrap Moves",
+    "date": "2013",
+    "journal": "Medical Image Analysis",
+    "DOI": "10.1016/j.media.2012.12.002",
+    "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S1361841512001703",
+    "authors": [
+      "M. Freiman",
+      "J.M. Perez-Rossello",
+      "M.J. Callahan",
+      "S.D. Voss",
+      "K. Ecklund",
+      "R.V. Mulkern",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 17(3) 325-362"
+  },
+  {
+    "title": "Characterization of fast and Slow Diffusion from Diffusion-Weighted MRI of Pediatric Crohn's Disease",
+    "date": "2013",
+    "journal": "J. of Magnetic Resonance Imaging (JMRI)",
+    "DOI": "10.1002/jmri.23781",
+    "PDF": "https://onlinelibrary.wiley.com/doi/full/10.1002/jmri.23781",
+    "authors": [
+      "M. Freiman",
+      "J.M. Perez-Rossello",
+      "M.J. Callahan",
+      "M. Bittman",
+      "R.V. Mulkern",
+      "A. Bousvaros",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 37(1) 156-163"
+  },
+  {
+    "title": "In-Vivo Assessment of Optimal b-Value Range for Perfusion-Insensitive Apparent Diffusion Coefficient Imaging",
+    "date": "2012",
+    "journal": "Medical Physics",
+    "DOI": "10.1118/1.4736516",
+    "PDF": "https://aapm.onlinelibrary.wiley.com/doi/abs/10.1118/1.4736516",
+    "authors": [
+      "M. Freiman",
+      "S.D Voss",
+      "R.V. Mulkern",
+      "J. Perez-Rossello",
+      "M.J. Callahan",
+      "S.K. Warfield"
+    ],
+    "misc": "Vol. 39(8) 4832-4839"
+  },
+  {
+    "title": "Patient-Specific Carotid Arteries Modeling: A Nearly Automatic Model-Based Graph-Cut Approach",
+    "date": "2012",
+    "journal": "Int. J. of Computer Assisted Radiology and Surgery (IJCARS)",
+    "DOI": "10.1007/978-3-642-10470-1_1",
+    "PDF": "https://www.researchgate.net/publication/226111605_Vessels-Cut_A_Graph_Based_Approach_to_Patient-Specific_Carotid_Arteries_Modeling",
+    "authors": [
+      "M. Freiman",
+      "L. Joskowicz",
+      "N. Broide",
+      "M. Natanzon",
+      "E. Nammer",
+      "O. Shilon",
+      "L. Weizman",
+      "J. Sosna"
+    ],
+    "misc": "Vol. 7(5) 799-812"
+  },
+  {
+    "title": "fMRI Based Hierarchical SVM Model for the Classification and Grading of Liver Fibrosis",
+    "date": "2011",
+    "journal": "IEEE Trans. Biomedical Engineering",
+    "DOI": "10.1109/TBME.2011.2159710",
+    "PDF": "https://ieeexplore.ieee.org/document/5875869",
+    "authors": [
+      "Y. Sela",
+      "M. Freiman",
+      "E. Dery",
+      "R. Safadi",
+      "O. Pappo",
+      "L. Joskowicz",
+      "R. Abramovitch"
+    ],
+    "misc": "Vol. 58(9) 2574-2581"
+  },
+  {
+    "title": "Evaluation Framework for Carotid Bifurcation Lumen Segmentation and Stenosis Grading",
+    "date": "2011",
+    "journal": "Medical Image Analysis",
+    "DOI": "10.1016/j.media.2011.01.004",
+    "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S1361841511000260",
+    "authors": [
+      "R. Hameeteman",
+      "M.A. Zuluaga",
+      "M. Freiman",
+      "L. Joskowicz",
+      "O. Cuisenaire",
+      "L.F. Valencia",
+      "M.A. Gülsün",
+      "K. Krissian",
+      "J. Mille",
+      "W.C. Wong",
+      "M. Orkisz",
+      "H. Tek",
+      "M. H. Hoyos",
+      "F. Benmansour",
+      "A.C. Chung",
+      "S. Rozie",
+      "M. van Gils",
+      "L. van den Borne",
+      "J. Sosna",
+      "P. Berman",
+      "N. Cohen",
+      "P.C. Douek",
+      "I. Sánchez",
+      "M. Aissat",
+      "M. Schaap",
+      "C.T. Metz",
+      "G.P. Krestin",
+      "A. van der Lugt",
+      "W.J. Niessen T. van Walsum"
+    ],
+    "misc": "Vol. 15(4) 477-488"
+  },
+  {
+    "title": "Curvelets: A Patient-Specific Prior for Accurate Multi-Modal Image Registration",
+    "date": "2011",
+    "journal": "Medical Image Analysis",
+    "DOI": "10.1016/j.media.2010.11.003",
+    "PDF": "https://www.sciencedirect.com/science/article/abs/pii/S1361841510001088",
+    "authors": [
+      "M. Freiman",
+      "M. Werman",
+      "L. Joskowicz"
+    ],
+    "misc": "Vol. 15(1) 125-132"
+  },
+  {
+    "title": "Liver Tumors Segmentation from CTA Images Using Voxels Classification and Affinity Constraint Propagation",
+    "date": "2011",
+    "journal": "Int. J. of Computer Assisted Radiology and Surgery (IJCARS)",
+    "DOI": "10.1007/s11548-010-0497-5",
+    "PDF": "https://link.springer.com/article/10.1007%2Fs11548-010-0497-5",
+    "authors": [
+      "M. Freiman",
+      "O. Cooper",
+      "D. Lischinski",
+      "L. Joskowicz"
+    ],
+    "misc": "Vol. 6(2) 247-255"
+  },
+  {
+    "title": "Surface-Based Facial Scan Registration in Neuronavigation Procedures: A Clinical Study",
+    "date": "2009",
+    "journal": "J. of Neurosurgery",
+    "DOI": "10.3171/2009.3.JNS08148",
+    "PDF": "https://thejns.org/view/journals/j-neurosurg/111/6/article-p1201.xml",
+    "authors": [
+      "R. Shamir",
+      "M. Frieman",
+      "L. Joskowicz",
+      "S. Spektor",
+      "Y. Shoshan"
+    ],
+    "misc": "Vol. 111(6) 1201-1206"
+  },
+  {
+    "title": "An Iterative Bayesian Approach for Nearly Automatic Liver Segmentation: Algorithm and Validation",
+    "date": "2008",
+    "journal": "Int. J. of Computer Assisted Radiology and Surgery (IJCARS)",
+    "DOI": "10.1007/s11548-008-0254-1",
+    "PDF": "https://link.springer.com/article/10.1007/s11548-008-0254-1",
+    "authors": [
+      "M. Freiman",
+      "Y. Taieb",
+      "O. Eliassaf",
+      "L. Joskowicz",
+      "Y. Azraq",
+      "J. Sosna"
+    ],
+    "misc": "Vol. 3(5) 439-446"
+  },
+  {
+    "title": "Image-Guided System with Miniature Robot for Precise Positioning and Targeting in Keyhole Neurosurgery",
+    "date": "2006",
+    "journal": "Computer-Aided Surgery",
+    "DOI": "10.3109/10929080600909351",
+    "PDF": "https://www.tandfonline.com/doi/pdf/10.3109/10929080600909351",
+    "authors": [
+      "L. Joskowicz",
+      "M. Freiman",
+      "R. Shamir",
+      "M. Shoham",
+      "E. Zehavi",
+      "Y. Shoshan"
+    ],
+    "misc": "Vol. 11(4) 181-193"
+  }
+]
