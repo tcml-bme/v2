@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head id="head"></head>
+  <body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar"></nav>
+
+  <!-- Page content-->
+  <div class="container my-5">
+
+
+
+
+
+
+<h2 class="text-center m-5">
+    Unsupervised Deep-Learning based Deformable Image Registration: A Bayesian Framework 
+</h2>
+
+<p class="lead m-5 text-center">Samah Khawaled and Moti Freiman</p>
+
+<p class="text-center"><a href="https://arxiv.org/abs/2108.06771">Link in ArXiv</a></p>
+
+<h5 class="text-center m-5">Abstract</h5>
+
+Unsupervised deep-learning (DL) models were recently proposed for deformable image registration tasks. In such models, a neural-network is trained to predict the best deformation field by minimizing some dissimilarity function between the moving and the target images. After training on a dataset without reference deformation fields available, such a model can be used to rapidly predict the deformation field between newly seen moving and target images. Currently, the training process effectively provides a point-estimate of the network weights rather than characterizing their entire posterior distribution. This may result in a potential over-fitting, which may yield sub-optimal results at inference phase, especially for small-size datasets frequently present in the medical imaging domain. We introduce a fully Bayesian framework for unsupervised DL-based deformable image registration. Our method provides a principled way to characterize the true posterior distribution, thus avoiding potential over-fitting. We used stochastic gradient Langevin dynamics (SGLD) to conduct the posterior sampling, which is both theoretically well-founded and computationally efficient. We demonstrated the added-value of our Basyesian unsupervised DL-based registration framework on the MNIST and brain MRI (MGH10) datasets in comparison to the VoxelMorph unsupervised DL-based image registration framework. Our experiments show that our approach provides better estimates of the deformation field by means of improved mean-squared-error (0:0063 vs. 0:0065) and Dice coefficient (0:73 vs. 0:71) for the MNIST and the MGH10 datasets respectively. Further, our approach provides an estimate of the uncertainty in the deformation-field by characterizing the true posterior distribution.
+
+<h5 class="text-center m-5">Registration System</h5>
+
+The following block diagram illustrates the design of our Bayesian registration framework. Our main building-block is a UNet-based CNN similar to the VoxelMorph model [1]. The operation of the system at the inference stage is as follows: it takes a pair of moving (IM) and target (IF) images as a 2-channel input and predicts the posterior deformation field,ϕ by computing the average of the deformation field predictions obtained by the stochastic UNets. Lastly, it maps each pixel in the moving image by applying the spatial transform function.
+
+
+<img src="/research/dl_bayesian/Bayesian1.png" class="img-fluid mx-auto d-block" alt="Bayesian Diagram">
+
+<h5 class="text-center m-5">Experiments on 2D Examples</h5>
+
+
+We implement our method for unsupervised 2D deformable image registration on both the MNIST [2] and the MGH10 brain MRI [3] datasets.
+
+<img src="/research/dl_bayesian/Bayesian2.png" class="img-fluid mx-auto d-block" alt="Bayesian images">
+
+
+
+<h5 class="text-center m-5">References</h5>
+
+[1] Guha Balakrishnan, Amy Zhao, Mert R Sabuncu, John Guttag, and Adrian V Dalca. An unsupervised learning model for deformable medical image registration. In Proceedings of the IEEE conference on computer vision and pattern recognition, pages 9252–9260, 2018.
+
+[2] Yann LeCun. The mnist database of handwritten digits. yann. lecun. com/exdb/mnist/, 1998.
+
+[3] Arno Klein, Jesper Andersson, Babak A Ardekani, John Ashburner, Brian Avants, Ming-Chang Chiang, Gary E Christensen, D Louis Collins, James Gee, Pierre Hellier, et al. Evaluation of 14 nonlinear deformation algorithms applied to human brain mri registration. Neuroimage, 46(3):786–802, 2009.
+
+
+</div>
+
+<!-- Footer -->
+<footer class="flex-shrink-0 py-4 bg-dark text-white-50 mt-5" id="footer">
+</footer>
+  
+<!-- SCRIPTS -->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<!-- Popper JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Fontawesome -->
+<script src="https://kit.fontawesome.com/b8a4a61420.js" crossorigin="anonymous"></script>
+
+<!-- Markdown parser -->
+<!-- <script src="js/main.js"></script> -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
+
+<script src="/js/utils.js"></script>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 
 
-fetch("data/funding.json")
+fetch("/data/funding.json")
   .then(response => response.json())
   .then(data => {
     const items = document.getElementById("funding");
@@ -12,7 +12,7 @@ fetch("data/funding.json")
       div.classList.add("col-lg-4", "col-md-4", "col-4", "text-center");
       div.innerHTML = `
         <a href="${item.website}" class="d-block mb-4 h-100">
-          <img class="img-fluid funding-logos" src="assets/logos/${item.logo}" alt="">
+          <img class="img-fluid funding-logos" src="/assets/logos/${item.logo}" alt="">
         </a>
       `;
       outerDiv.appendChild(div);
@@ -23,7 +23,7 @@ fetch("data/funding.json")
   .catch(error => console.error(error));
 
 
-fetch("data/research.json")
+fetch("/data/research.json")
   .then(response => response.json())
   .then(data => {
     const items = document.getElementById("research");
@@ -44,7 +44,7 @@ fetch("data/research.json")
       link.href = `research/${item.assets}`;
 
       img.classList.add("img-fluid", "rounded", "mb-3", "mb-md-0");
-      img.src = `assets/research/${item.assets}/${item.image}`;
+      img.src = `/research/${item.assets}/${item.image}`;
       img.alt = "";
 
       title.textContent = item.title;
@@ -53,7 +53,7 @@ fetch("data/research.json")
 
       viewProjectButton.classList.add("btn", "btn-primary");
       viewProjectButton.textContent = "View Project";
-      viewProjectButton.href = `research/${item.assets}`;
+      viewProjectButton.href = `/research/${item.assets}`;
 
       imageDiv.appendChild(link);
       link.appendChild(img);
@@ -79,7 +79,7 @@ fetch("data/research.json")
 
 
   
-fetch("data/banners.json")
+fetch("/data/banners.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("carousel-inner");
@@ -90,12 +90,12 @@ fetch("data/banners.json")
 
     const img = document.createElement("img");
     img.classList.add("d-block", "w-100");
-    img.src = `assets/banners/${item.image}`;
+    img.src = `/assets/banners/${item.image}`;
 
     div.appendChild(img);
 
     if (index == 0) {
-      img.src = `assets/banners/mri_center_banner.png`;
+      img.src = `/assets/banners/mri_center_banner.png`;
       div.classList.add("active");
     } else {
       const caption = document.createElement("p");
