@@ -80,7 +80,7 @@ fetch("data/conference.json")
 
 
 
-fetch("data/abstracts.json")
+fetch("https://tcml-bme.github.io/v2/data/abstracts.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("abstracts");

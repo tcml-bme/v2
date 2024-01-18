@@ -1,5 +1,5 @@
 
-fetch("data/collaborators.json")
+fetch("https://tcml-bme.github.io/v2/data/collaborators.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("collaborators");

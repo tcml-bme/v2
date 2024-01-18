@@ -1,5 +1,5 @@
 
-fetch("data/people.json")
+fetch("https://tcml-bme.github.io/v2/data/people.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("people");
@@ -13,7 +13,7 @@ fetch("data/people.json")
 
     const img = document.createElement("img");
     img.classList.add("card-img-top", "rounded-circle", "people-photos");
-    img.src = `assets/people/${item.photo}`;
+    img.src = `https://tcml-bme.github.io/v2/assets/people/${item.photo}`;
 
     const cardBodyDiv = document.createElement("div");
     cardBodyDiv.classList.add("card-body", "text-center");
@@ -96,7 +96,7 @@ fetch("data/people.json")
 .catch(error => console.error(error));
 
 
-fetch("data/alumni.json")
+fetch("https://tcml-bme.github.io/v2/data/alumni.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("alumni");
@@ -110,7 +110,7 @@ fetch("data/alumni.json")
 
     const img = document.createElement("img");
     img.classList.add("card-img-top", "rounded-circle", "alumni-photos");
-    img.src = `assets/people/${item.photo}`;
+    img.src = `https://tcml-bme.github.io/v2/assets/people/${item.photo}`;
 
     const cardBodyDiv = document.createElement("div");
     cardBodyDiv.classList.add("card-body", "text-center");

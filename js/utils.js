@@ -7,7 +7,7 @@ function getConfigValue(key) {
   }
   
 
-fetch('/navbar.html')
+fetch('https://tcml-bme.github.io/v2/navbar.html')
   .then(response => response.text())
   .then(data => {
       document.getElementById('navbar').innerHTML = data;
@@ -18,7 +18,7 @@ fetch('/navbar.html')
 
 
   
-fetch('/footer.html')
+fetch('https://tcml-bme.github.io/v2/footer.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('footer').innerHTML = data;
@@ -28,7 +28,7 @@ fetch('/footer.html')
 });
 
   
-fetch('/head.html')
+fetch('https://tcml-bme.github.io/v2/head.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('head').innerHTML = data;
@@ -38,7 +38,7 @@ fetch('/head.html')
 });
 
 
-fetch("/data/research.json")
+fetch("https://tcml-bme.github.io/v2/data/research.json")
 .then(response => response.json())
 .then(data => {
     const researchNavbar = document.getElementById("ul-research-navbar");
@@ -47,7 +47,7 @@ fetch("/data/research.json")
         const li = document.createElement("li");
         const a = document.createElement("a");
         a.classList.add("dropdown-item");
-        a.href = `/research/${item.assets}`;
+        a.href = `https://tcml-bme.github.io/v2/research/${item.assets}`;
         a.innerHTML = item.title;
 
         // <li><a class="dropdown-item" href="#">Action</a></li>
