@@ -41,7 +41,7 @@ fetch("https://tcml-bme.github.io/v2/data/research.json")
 
       imageDiv.classList.add("col-md-7", "my-4");
 
-      link.href = `research/${item.assets}`;
+      link.href = `https://tcml-bme.github.io/v2/research/${item.assets}`;
 
       img.classList.add("img-fluid", "rounded", "mb-3", "mb-md-0");
       img.src = `https://tcml-bme.github.io/v2/research/${item.assets}/${item.image}`;

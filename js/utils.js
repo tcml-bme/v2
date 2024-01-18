@@ -66,7 +66,7 @@ fetch("https://tcml-bme.github.io/v2/data/research.json")
     const liCollaborators = document.createElement("li");
     const aCollaborators = document.createElement("a");
     aCollaborators.classList.add("dropdown-item");
-    aCollaborators.href = `/collaborators.html`;
+    aCollaborators.href = `https://tcml-bme.github.io/v2/collaborators.html`;
     aCollaborators.innerHTML = "Collaborators";
     liCollaborators.appendChild(aCollaborators);
     researchNavbar.appendChild(liCollaborators);
@@ -75,7 +75,7 @@ fetch("https://tcml-bme.github.io/v2/data/research.json")
     const liUndergraduateProjects = document.createElement("li");
     const aUndergraduateProjects = document.createElement("a");
     aUndergraduateProjects.classList.add("dropdown-item");
-    aUndergraduateProjects.href = `/undergraduate.html`;
+    aUndergraduateProjects.href = `https://tcml-bme.github.io/v2/undergraduate.html`;
     aUndergraduateProjects.innerHTML = "Undergraduate Projects";
     liUndergraduateProjects.appendChild(aUndergraduateProjects);
     researchNavbar.appendChild(liUndergraduateProjects);

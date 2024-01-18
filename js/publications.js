@@ -1,5 +1,5 @@
 
-fetch("data/journal.json")
+fetch("https://tcml-bme.github.io/v2/data/journal.json")
   .then(response => response.json())
   .then(data => {
     const items = document.getElementById("journal");
@@ -39,7 +39,7 @@ fetch("data/journal.json")
 
 
   
-fetch("data/conference.json")
+fetch("https://tcml-bme.github.io/v2/data/conference.json")
 .then(response => response.json())
 .then(data => {
   const items = document.getElementById("conference");
