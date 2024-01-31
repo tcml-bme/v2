@@ -10,7 +10,17 @@
       "M. Freiman",
       "H. Azhari"
     ],
-    "misc": "Vol. 10(3)"
+    "misc": "Vol. 10(3)",
+    "keywords": [
+      "Ultrasound",
+      "Segmentation",
+      "Image Reconstruction",
+      "Super Resolution",
+      "Visualization",
+      "Anatomical Imaging",
+      "Cancer"
+    ]
+
   },
   {
     "title": "Development of a multimodal machine-learning fusion model to non-invasively assess ileal Crohn’s disease endoscopic activity",
@@ -29,7 +39,11 @@
       "A.M. Griffiths",
       "M. Freiman"
     ],
-    "misc": "Vol. 227"
+    "misc": "Vol. 227",
+    "keywords":[
+      "Chron's Disease", 
+      "MRI"
+    ]
   }, 
   {
     "title": "NPBDREG: Uncertainty Assessment in Diffeomorphic Brain MRI Registration using a Non-parametric Bayesian Deep-Learning Based Approach",
@@ -41,9 +55,15 @@
       "S. Khawaled",
       "M. Freiman"
     ],
-    "misc": "Vol. 99"
+    "misc": "Vol. 99",
+    "keywords": [
+      "Registration", 
+      "Image Reconstruction", 
+      "MRI" 
+    ]
   },
-  {    "title": "Prognostic Value of RCA Pericoronary Adipose Tissue CT-Attenuation Beyond High-Risk Plaques, Plaque Volume, and Ischemia",
+  {    
+    "title": "Prognostic Value of RCA Pericoronary Adipose Tissue CT-Attenuation Beyond High-Risk Plaques, Plaque Volume, and Ischemia",
     "date": "Aug 14 2021",
     "journal": "J. American College of Cardiology Imaging (JACC_Img)",
     "DOI": "10.1016/j.jcmg.2021.02.026",    

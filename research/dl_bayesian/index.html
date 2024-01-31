@@ -29,14 +29,14 @@ Unsupervised deep-learning (DL) models were recently proposed for deformable ima
 The following block diagram illustrates the design of our Bayesian registration framework. Our main building-block is a UNet-based CNN similar to the VoxelMorph model [1]. The operation of the system at the inference stage is as follows: it takes a pair of moving (IM) and target (IF) images as a 2-channel input and predicts the posterior deformation field,ϕ by computing the average of the deformation field predictions obtained by the stochastic UNets. Lastly, it maps each pixel in the moving image by applying the spatial transform function.
 
 
-<img src="https://tcml-bme.github.io/v2/research/dl_bayesian/Bayesian1.png" class="img-fluid mx-auto d-block" alt="Bayesian Diagram">
+<img src="/research/dl_bayesian/Bayesian1.png" class="img-fluid mx-auto d-block" alt="Bayesian Diagram">
 
 <h5 class="text-center m-5">Experiments on 2D Examples</h5>
 
 
 We implement our method for unsupervised 2D deformable image registration on both the MNIST [2] and the MGH10 brain MRI [3] datasets.
 
-<img src="https://tcml-bme.github.io/v2/research/dl_bayesian/Bayesian2.png" class="img-fluid mx-auto d-block" alt="Bayesian images">
+<img src="/research/dl_bayesian/Bayesian2.png" class="img-fluid mx-auto d-block" alt="Bayesian images">
 
 
 
@@ -70,7 +70,7 @@ We implement our method for unsupervised 2D deformable image registration on bot
 <!-- <script src="js/main.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
 
-<script src="https://tcml-bme.github.io/v2/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
 </body>
 </html>

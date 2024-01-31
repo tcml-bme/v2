@@ -14,9 +14,6 @@ fetch("https://tcml-bme.github.io/v2/data/collaborators.json")
           <a href="${item.link}">${item.name}</a>
         </h4>
         <p class="card-text">
-          ${item.title}
-        </p>
-        <p class="card-text">
           ${marked.parse(item.description)}
         </p>
 

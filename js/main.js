@@ -12,7 +12,7 @@ fetch("https://tcml-bme.github.io/v2/data/funding.json")
       div.classList.add("col-lg-4", "col-md-4", "col-4", "text-center");
       div.innerHTML = `
         <a href="${item.website}" class="d-block mb-4 h-100">
-          <img class="img-fluid funding-logos" src="https://tcml-bme.github.io/v2/assets/logos/${item.logo}" alt="">
+          <img class="img-fluid funding-logos" src="/assets/logos/${item.logo}" alt="${item.name}">
         </a>
       `;
       outerDiv.appendChild(div);
@@ -21,62 +21,6 @@ fetch("https://tcml-bme.github.io/v2/data/funding.json")
     items.appendChild(outerDiv);
   })
   .catch(error => console.error(error));
-
-
-fetch("https://tcml-bme.github.io/v2/data/research.json")
-  .then(response => response.json())
-  .then(data => {
-    const items = document.getElementById("research");
-    const outerDiv = document.createElement("div");
-    outerDiv.classList.add("row", "text-center", "text-lg-start");
-
-    data.forEach((item, index) => {
-      const imageDiv = document.createElement("div");
-      const textDiv = document.createElement("div");
-      const link = document.createElement("a");
-      const img = document.createElement("img");
-      const title = document.createElement("h3");
-      const description = document.createElement("p");
-      const viewProjectButton = document.createElement("a");
-
-      imageDiv.classList.add("col-md-7", "my-4");
-
-      link.href = `https://tcml-bme.github.io/v2/research/${item.assets}`;
-
-      img.classList.add("img-fluid", "rounded", "mb-3", "mb-md-0");
-      img.src = `https://tcml-bme.github.io/v2/research/${item.assets}/${item.image}`;
-      img.alt = "";
-
-      title.textContent = item.title;
-
-      description.textContent = item.description;
-
-      viewProjectButton.classList.add("btn", "btn-primary");
-      viewProjectButton.textContent = "View Project";
-      viewProjectButton.href = `https://tcml-bme.github.io/v2/research/${item.assets}`;
-
-      imageDiv.appendChild(link);
-      link.appendChild(img);
-
-      textDiv.classList.add("col-md-5", "my-4");
-      textDiv.appendChild(title);
-      textDiv.appendChild(description);
-      textDiv.appendChild(viewProjectButton);
-
-      if (index % 2 == 0) {
-        outerDiv.appendChild(imageDiv);
-        outerDiv.appendChild(textDiv);
-      } else {
-        outerDiv.appendChild(textDiv);
-        outerDiv.appendChild(imageDiv);
-      }
-      
-    });
-
-    items.appendChild(outerDiv);
-  })
-  .catch(error => console.error(error));
-
 
   
 fetch("https://tcml-bme.github.io/v2/data/banners.json")
@@ -90,17 +34,19 @@ fetch("https://tcml-bme.github.io/v2/data/banners.json")
 
     const img = document.createElement("img");
     img.classList.add("d-block", "w-100");
-    img.src = `https://tcml-bme.github.io/v2/assets/banners/${item.image}`;
+    img.src = `/assets/banners/${item.image}`;
 
     div.appendChild(img);
 
     if (index == 0) {
       img.src = `https://tcml-bme.github.io/v2/assets/banners/mri_center_banner.png`;
+      img.alt = "Welcome to the Technion Computational MRI Research Lab";
       div.classList.add("active");
     } else {
       const caption = document.createElement("p");
       caption.classList.add("text-center");
       caption.innerHTML = `<b>${item.date}</b>: ${marked.parse(item.text)}`;
+      img.alt = item.text;
   
       div.appendChild(caption);
     }
@@ -112,3 +58,13 @@ fetch("https://tcml-bme.github.io/v2/data/banners.json")
 })
 .catch(error => console.error(error));
 
+
+
+fetch('/research.html')
+.then(response => response.text())
+.then(data => {
+    document.getElementById('research').innerHTML += data;
+})
+.catch(error => {
+    console.error('Error:', error);
+});

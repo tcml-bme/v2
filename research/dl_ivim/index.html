@@ -22,13 +22,13 @@ Quantitative Diffusion-Weighted MRI (DW-MRI) with the Intra-Voxel Incoherent Mot
 
 A feed-forward back-propagation deep neural network was trained using data generated according to the IVIM model. The network is comprised of five fully-connected hidden layers, an extended input layer and an output layer. The input layer is composed of the neurons which receive the normalized diffusion-weighted signals, as well as the values of the acquisition parameters. The output layer is comprised of 3 neurons, which hold the estimations of the IVIM model parameters: D, Dp and Fp. An Adam optimizer was applied for the training, with a loss function computed as the mean square error between the normalized signal input and the normalized predicted output according to the IVIM model (Eq. (1)). The proposed network was trained and tested on simulated diffusion-weighted signals, according to the IVIM model, with randomly varying b-values vectors. The IVIM parameters were chosen as uniformly distributed random variables over the following intervals: 0.0005 ≤ D ≤ 0.002 mm 2/sec, 0.01 ≤ Dp ≤ 0.1 mm 2/sec, 0.1 ≤ Fp ≤ 0.4. These parameters values were chosen in agreement with reported abdominal DW-MRI data [2]. During the training process, uniformly distributed random variations in the b-values vectors were injected to the network. Rician noise was added to the IVIM signals during the training process.
 
-<img src="https://tcml-bme.github.io/v2/research/dl_ivim/DNN_IVIM1.png" class="img-fluid mx-auto d-block" alt="">
+<img src="/research/dl_ivim/DNN_IVIM1.png" class="img-fluid mx-auto d-block" alt="">
 
 <h5 class="text-center m-5">Conclusion</h5>
 
 We introduced a deep learning model capable to "learn" the IVIM signal model decay by incorporating the acquisition parameters into the network architecture. In a major shift from previous work, which focused on accurate prediction of the IVIM model parameters in a specific setting (i.e., a set of b values), our approach is capable to "learn" the IVIM model and as a result, be agnostic to variations in the acquisition protocols. Thus, the proposed DNN-based model of the IVIM signal-decay model may be used to estimate the IVIM model parameters from DW-MRI data, without requiring an additional training session according to the specific acquisition protocol parameters. The proposed approach can be extended directly to additional parametric MRI quantitative mappings.
 
-<img src="https://tcml-bme.github.io/v2/research/dl_ivim/DNN_IVIM2.png" class="img-fluid mx-auto d-block" alt="">
+<img src="/research/dl_ivim/DNN_IVIM2.png" class="img-fluid mx-auto d-block" alt="">
 
 <h5 class="text-center m-5">References</h5>
 
@@ -62,7 +62,7 @@ This research was supported in part by the United States-Israel Binational Scien
 <!-- <script src="js/main.js"></script> -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/11.1.1/marked.min.js"></script>
 
-<script src="https://tcml-bme.github.io/v2/js/utils.js"></script>
+<script src="/js/utils.js"></script>
 
 </body>
 </html>
