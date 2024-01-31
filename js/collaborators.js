@@ -8,7 +8,7 @@ fetch("https://tcml-bme.github.io/v2/data/collaborators.json")
     div.classList.add("col-lg-6", "mb-4");
     div.innerHTML = `
     <div class="card h-100 border-0">
-      <a href="${item.link}"><img class="card-img-top" src="${item.image}" alt=""></a>
+      <a href="${item.link}"><img class="card-img-top" src="https://tcml-bme.github.io/v2/assets/logos/${item.image}" alt=""></a>
       <div class="card-body">
         <h4 class="card-title">
           <a href="${item.link}">${item.name}</a>

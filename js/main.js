@@ -12,7 +12,7 @@ fetch("https://tcml-bme.github.io/v2/data/funding.json")
       div.classList.add("col-lg-4", "col-md-4", "col-4", "text-center");
       div.innerHTML = `
         <a href="${item.website}" class="d-block mb-4 h-100">
-          <img class="img-fluid funding-logos" src="/assets/logos/${item.logo}" alt="${item.name}">
+          <img class="img-fluid funding-logos" src="https://tcml-bme.github.io/v2/assets/logos/${item.logo}" alt="${item.name}">
         </a>
       `;
       outerDiv.appendChild(div);
@@ -34,7 +34,7 @@ fetch("https://tcml-bme.github.io/v2/data/banners.json")
 
     const img = document.createElement("img");
     img.classList.add("d-block", "w-100");
-    img.src = `/assets/banners/${item.image}`;
+    img.src = `https://tcml-bme.github.io/v2/assets/banners/${item.image}`;
 
     div.appendChild(img);
 
