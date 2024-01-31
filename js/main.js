@@ -60,7 +60,7 @@ fetch("https://tcml-bme.github.io/v2/data/banners.json")
 
 
 
-fetch('/research.html')
+fetch('https://tcml-bme.github.io/v2/research.html')
 .then(response => response.text())
 .then(data => {
     document.getElementById('research').innerHTML += data;
