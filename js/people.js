@@ -120,7 +120,7 @@ fetch("https://tcml-bme.github.io/v2/data/alumni.json")
     nameHeader.textContent = `${item.name}, ${item.degree}`;
 
     const titleDiv = document.createElement("div");
-    titleDiv.classList.add("card-text", "text-black-50");
+    titleDiv.classList.add("card-text", "text-muted", "small");
     titleDiv.textContent = item.position;
 
     cardDiv.appendChild(img); 

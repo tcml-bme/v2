@@ -57,14 +57,14 @@ h1.pub-header {
     padding-left: 15px;  
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .people-column {
         flex: 0 0 auto;
         width: 50%;
 }
 }
 
-@media (max-width: 576px) {
+@media (max-width: 768px) {
     .people-column {
         flex: 0 0 auto;
         width: 100%; 
@@ -72,8 +72,8 @@ h1.pub-header {
 }
 
 .people-photos {
-    width: 300px;  /* Adjust as needed */
-    height: 300px; /* Adjust as needed */
+    width: 250px;  /* Adjust as needed */
+    height: 250px; /* Adjust as needed */
     object-fit: cover; 
     margin-left: auto;
     margin-right: auto;

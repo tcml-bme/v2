@@ -2,31 +2,31 @@
     {
         "name": "Computational Radiology Laboratory of Harvard University at Boston Children’s Hospital",
         "description": "- [Prof. Simon Warfield](http://crl.med.harvard.edu/labmembers/simonwarfield/) and [Dr. Onur Afacan](https://www.childrenshospital.org/research/researchers/onur-afacan), Assessment of fetal lung functional maturation with Diffusion-Weighted MRI",
-        "image": "assets/logos/harvard_boston.png",
+        "image": "harvard_boston.png",
         "link": "http://www.crl.med.harvard.edu/"
     }, 
     {
         "name": "Department of Radiology at Rambam Health Care Campus",
         "description": "- [Dr. Anat Ilivitzki](https://www.rambam.org.il/en/?catid=%7Bd0587c4f-cd3e-4ce1-9ed3-447ab6647d78%7D&itemid=%7Bc44dee09-d28e-4a9a-a6ef-0d83906caa99%7D) - A platform for Artificial Intelligence based dynamic analysis of PET-CT with applications in oncology. \n - [Dr. Anat Ilivitzki](https://www.rambam.org.il/en/?catid=%7Bd0587c4f-cd3e-4ce1-9ed3-447ab6647d78%7D&itemid=%7Bc44dee09-d28e-4a9a-a6ef-0d83906caa99%7D) - Diagnosis and Monitoring of Crohn’s Disease activity in Contrast-Enhanced Ultrasound (CEUS) of the bowel, using flow-radiomics machine learning models \n - [Prof. Ram Weiss](https://www.rambam.org.il/en/?catid=%7B2401e4ad-b260-4af6-a018-ca187d14c9ed%7D&itemid=%7B8f3f76ef-4f44-43b9-aa23-d69a3d9c5494%7D) - Advancing Diabetes Research: A Novel Approach Utilizing Deep Learning Enhanced Multi-Compartment Quantitative MRI for Precise Pancreatic Tissue Analysis",
-        "image": "assets/logos/rambam-logo-25.png",
+        "image": "rambam-logo-25.png",
         "link": "https://www.rambam.org.il/en/departmentsandclinics/medical-imaging-division/"
     },
     {
         "name": "Hillel-Yaffe Medical Center",
         "description": "- [Prof. Rinat Gabbai-Benziv](https://hymc.org.il/eng/?CategoryID=218&ArticleID=885) - Physically-primed Deep-neural-networks for placental functional assessment in large for gestational age pregnancies with accelerated Diffusion-Weighted MRI",
-        "image": "assets/logos/hillel_yaffe_english.png",
+        "image": "hillel_yaffe_english.png",
         "link": "https://hymc.org.il/"
     },
     {
         "name": "Shaare Zedek Medical Center",
         "description": "- [Prof. Dan Turner](https://www.szmc.org.il/en/departments/wilf-childrens-hospital/institute-of-paediatric-gastroenterology-and-nutrition/) - Combining Multi-Tier Administrative Data for Facilitating Disease-Free Management: from Low Hanging Fruits to Deep and Integrative Analyses",
-        "image": "assets/logos/shaare_zedek.png",
+        "image": "shaare_zedek.png",
         "link": "https://www.szmc.org.il/eng"
     },
     {
         "name": "Temerty Centre for Artificial Intelligence Research and Education in Medicine (T-CAIREM) at the University of Toronto",
         "description": "- [Prof. Mary-Louise Greer](https://www.sickkids.ca/en/staff/g/mary-louise-greer/) and [Prof. Mojgan Hodaie](https://www.hodaielab.com/) - AI-assisted MRI fusion models for characterization of inflammation",
-        "image": "assets/logos/tcairem_utoronto.png",
+        "image": "tcairem_utoronto.png",
         "link": "https://tcairem.utoronto.ca/"
     }
 ]
