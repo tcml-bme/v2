@@ -57,14 +57,14 @@ h1.pub-header {
     padding-left: 15px;  
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .people-column {
         flex: 0 0 auto;
-        width: 50%;
+        width: 75%;
 }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 576px) {
     .people-column {
         flex: 0 0 auto;
         width: 100%; 
