@@ -57,14 +57,3 @@ fetch("https://tcml-bme.github.io/v2/data/banners.json")
   // items.appendChild(outerDiv);
 })
 .catch(error => console.error(error));
-
-
-
-fetch('https://tcml-bme.github.io/v2/research.html')
-.then(response => response.text())
-.then(data => {
-    document.getElementById('research').innerHTML += data;
-})
-.catch(error => {
-    console.error('Error:', error);
-});
