@@ -1,5 +1,3 @@
-import * as d3 from "https://cdn.jsdelivr.net/npm/d3@7/+esm";
-
 const dataNodes = [
     { id: 1, title: "Clinical", group: 1 }, 
     { id: 2, title: "Imaging", group: 2 }, 
